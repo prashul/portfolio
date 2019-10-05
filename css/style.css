@@ -145,7 +145,7 @@ ul.timeline > li:before {
     height: 100vh;
     min-height: 450px;
     max-height: 1080px;
-    background-image : url("../images/coverImage.JPG");
+    background-image : url("../images/coverImage.jpg");
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -270,12 +270,7 @@ ul.timeline > li:before {
 		max-height: auto;
 		padding: 100px 15px;
 	}
-	#lead-content {
-		position: relative;
-		transform: none;
-		left: auto;
-		top: auto;
-	}
+	
 	#lead-content h1 {
 		font-size: 3em;
 	}
@@ -292,9 +287,9 @@ ul.timeline > li:before {
 
 @media only screen and (max-width: 768px) {
 	header {
-		 height: auto;
+        height: auto;
 		max-height: 1080px;
-        	background-size:cover
+        background-size:cover
 	}
 	#mobile-menu-open,
 	#mobile-menu-close {
@@ -353,6 +348,7 @@ ul.timeline > li:before {
 	
 	
 }
+
 
 @media only screen and (max-width: 480px) {
 	#lead-content h1 {
