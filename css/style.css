@@ -1,4 +1,13 @@
 <style>
+	#aboutMe p {
+		text-align: justify;
+	}
+	#experience ul > li> ul
+	{
+		text-align: justify;
+		text-justify: inter-word;
+	}
+	
 .top span {
     cursor: pointer;
     display: block;
@@ -56,7 +65,6 @@
 */
 #education h2 {
 	color: #374054;
-	margin-bottom: 50px;
 }
 
 #education li {
@@ -73,19 +81,13 @@
 	background: #fff;
 }
 
-.education-block h3  {
-	font-weight: 500;
-	float: left;
-	margin: 0;
-	color: #74808a;
-	
-}
-
 
 .education-block h5
     {
         color:#74808a;
         font-size:1rem;
+        display:block;
+        clear:both;
     }
 .education-block span {
 	color: #74808a;
@@ -94,10 +96,9 @@
 }
 
 .education-block h4{
-	clear: both;
 	font-weight: 500;
     font-size:1.3rem;
-    display:inline-block;
+    float:left;
 }
 
 .education-block p,
@@ -277,12 +278,19 @@ ul.timeline > li:before {
 	#lead-content h2 {
 		font-size: 1.75em;
 	}
-	#about {
+	#aboutMe, #experience  h2, #education h2, #projects h2, #skills h2{
 		text-align: center;
 	}
-	#about p {
+	
+	{
+		text-align:center;
+	}
+	#aboutMe p {
 		text-align: left;
 	}
+
+	
+	
 }
 
 @media only screen and (max-width: 768px) {
@@ -318,7 +326,11 @@ ul.timeline > li:before {
 	#lead-down {
 		display: none;
 	}
-	#about p {
+	#aboutMe p {
+		text-align: justify;
+	}
+	#experience ul > li> ul
+	{
 		text-align: justify;
 		text-justify: inter-word;
 	}
@@ -345,7 +357,8 @@ ul.timeline > li:before {
 	.social {
 		text-align: center;
 	}
-	
+	.education-block h4{
+        float :none;
 	
 }
 
