@@ -145,7 +145,7 @@ ul.timeline > li:before {
     height: 100vh;
     min-height: 450px;
     max-height: 1080px;
-    background-image : url("./images/coverImage.JPG");
+    background-image : url("../images/coverImage.JPG");
     background-size: cover;
     padding: 15px;
     overflow: hidden;
