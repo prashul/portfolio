@@ -7,7 +7,21 @@
 		text-align: justify;
 		text-justify: inter-word;
 	}
-	
+.right-float
+{
+    float:right;
+    color: #007bff;
+}
+.company-role
+{
+    color: #007bff;
+    float:left;
+}
+.company-name
+{
+    color: #007bff;
+    clear:both;
+}
 .top span {
     cursor: pointer;
     display: block;
@@ -359,7 +373,11 @@ ul.timeline > li:before {
 	}
 	.education-block h4{
         float :none;
-	
+    }
+    .right-float, .company-role
+    {
+        float:none;
+    }
 }
 
 
@@ -374,5 +392,9 @@ ul.timeline > li:before {
 		font-size: 0.9em;
 		padding: 5px 10px;
 	}
+     .right-float
+    {
+        float:none;
+    }
 }
     </style>
