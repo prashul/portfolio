@@ -7,21 +7,7 @@
 		text-align: justify;
 		text-justify: inter-word;
 	}
-.right-float
-{
-    float:right;
-    color: #007bff;
-}
-.company-role
-{
-    color: #007bff;
-    float:left;
-}
-.company-name
-{
-    color: #007bff;
-    clear:both;
-}
+	
 .top span {
     cursor: pointer;
     display: block;
@@ -79,7 +65,6 @@
 */
 #education h2 {
 	color: #374054;
-	margin-bottom: 50px;
 }
 
 #education li {
@@ -96,7 +81,6 @@
 	background: #fff;
 }
 
-	margin: 0;
 
 .education-block h5
     {
@@ -162,6 +146,7 @@ ul.timeline > li:before {
     height: 100vh;
     min-height: 450px;
     max-height: 1080px;
+    background-image : url("../images/coverImage.JPG");
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -375,7 +360,7 @@ ul.timeline > li:before {
 	.education-block h4{
         float :none;
     }
-    .right-float, .company-role
+    .experience span
     {
         float:none;
     }
@@ -393,9 +378,5 @@ ul.timeline > li:before {
 		font-size: 0.9em;
 		padding: 5px 10px;
 	}
-     .right-float
-    {
-        float:none;
-    }
 }
     </style>
